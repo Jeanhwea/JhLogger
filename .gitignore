@@ -26,3 +26,25 @@
 *.exe
 *.out
 *.app
+
+# vs2012 project temp files
+*.opensdf
+*.pdb
+*.sdf
+*.suo
+
+# add by Jeanhwea
+Debug/*
+Release/*
+x64/Debug/*
+x64/Release/*
+Source/Debug/*
+mpps/*
+tmp/*
+
+# some doc dir
+Source/tinyxml/doc/*
+
+# some output files
+output*
+
