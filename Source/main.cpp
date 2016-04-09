@@ -19,3 +19,6 @@ void foo()
     for (int j = 0; j < 100; j++)
         i++;
 }
+
+// main.cpp@10->main
+// main.cpp@18->foo

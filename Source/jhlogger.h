@@ -32,7 +32,7 @@ private:
     JhLogger & operator=(const JhLogger &);
 
 public:
-    void TraceFunc(char * file, int line, char * func);
+    void TraceFunc(const char * file, const int line, const char * func);
 private:
     enum JhLogLevel m_log_level;
 };

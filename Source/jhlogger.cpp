@@ -15,7 +15,7 @@ JhLogger::~JhLogger()
 
 }
 
-void JhLogger::TraceFunc(char * file, int line, char * func)
+void JhLogger::TraceFunc(const char * file, const int line, const char * func)
 {
     std::string sfile(file);
     int filename_idx = sfile.find_last_of('\\')+1;

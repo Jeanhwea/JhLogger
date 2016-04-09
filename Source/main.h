@@ -1,0 +1,11 @@
+
+// @author: Jeanhwea
+// @filename: main.h
+#ifndef _MAIN_H_
+#define _MAIN_H_
+#include "jhlogger.h"
+
+
+void foo();
+
+#endif
